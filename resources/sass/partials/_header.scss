@@ -4,6 +4,7 @@ header {
     list-style: none;
     li {
       display: inline-block;
+      margin-right: 16px;
       a {
         color: $link_main_color;
       }

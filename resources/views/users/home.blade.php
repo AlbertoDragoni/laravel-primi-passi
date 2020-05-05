@@ -145,9 +145,6 @@ foreach ($cards as $key => $card) {
   <body>
     @include ('partials.header')
     @include ('partials.main')
-
-    <footer>
-
-    </footer>
+    @include ('partials.footer')
   </body>
 </html>

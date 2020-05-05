@@ -1,6 +1,11 @@
 main {
   .cards-list {
     section {
+      h2 {
+        color: blue;
+        text-transform: uppercase;
+        margin-left: 20px;
+      }
       .cards {
         display: flex;
         flex-wrap: wrap;
@@ -9,7 +14,7 @@ main {
           flex-basis: calc(100% / 3 - 40px);
           margin: 20px;
           overflow: hidden;
-          border-radius: 10px; 
+          border-radius: 10px;
           &:hover {
             .hover {
 
