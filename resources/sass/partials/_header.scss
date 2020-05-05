@@ -1,0 +1,12 @@
+header {
+  text-align: center;
+  .main-menu {
+    list-style: none;
+    li {
+      display: inline-block;
+      a {
+        color: $link_main_color;
+      }
+    }
+  }
+}

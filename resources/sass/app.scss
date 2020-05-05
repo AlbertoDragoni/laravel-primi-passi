@@ -1,25 +1,8 @@
 //
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-@import 'partials/_variables';
-@import 'partials/_common';
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  font-family: 'Open Sans', sans-serif;
-}
-header {
-  text-align: center;
-  .main-menu {
-    list-style: none;
-    li {
-      display: inline-block;
-      a {
-        color: $link_main_color;
-      }
-    }
-  }
-}
+@import '_variables';
+@import '_common';
+@import '_reset';
+@import 'partials/_header';
+@import 'partials/_main';
+@import 'partials/_footer';

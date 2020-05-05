@@ -1,11 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);* {
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);body {
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  font-family: "Open Sans", sans-serif;
 }
 
 header {
@@ -22,5 +22,17 @@ header .main-menu li {
 
 header .main-menu li a {
   color: black;
+}
+
+main .cards-list section .cards {
+  display: flex;
+}
+
+main .cards-list section .cards .card {
+  flex-basis: calc(100% / 3);
+}
+
+main .cards-list section .cards .card .hover {
+  display: none;
 }
 

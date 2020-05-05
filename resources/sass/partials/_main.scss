@@ -1,0 +1,15 @@
+main {
+  .cards-list {
+    section {
+      .cards {
+        display: flex;
+        .card {
+          flex-basis: calc(100% / 3);
+          .hover {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
