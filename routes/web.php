@@ -19,3 +19,9 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('users.home');
 })->name('home');
+Route::get('/products', function () {
+    return view('users.products');
+})->name('prodotti');
+Route::get('/contacts', function () {
+    return view('users.contacts');
+})->name('contatti');
