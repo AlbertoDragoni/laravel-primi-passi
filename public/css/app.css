@@ -30,6 +30,10 @@ header .main-menu li a {
   color: black;
 }
 
+main {
+  background-image: url(/images/background.jpg?06a79f19fbb4489a17e2dff67ce37137);
+}
+
 main .cards-list section h2 {
   color: blue;
   text-transform: uppercase;

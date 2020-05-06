@@ -7,7 +7,10 @@
   </head>
   <body>
     @include ('partials.header')
-    @include ('partials.main')
+    <main>
+        @yield('mainContent')
+    </main>
+
     @include ('partials.footer')
     @yield('script')
   </body>
