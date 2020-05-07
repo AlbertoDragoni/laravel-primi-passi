@@ -13,25 +13,34 @@ body a {
   box-sizing: border-box;
 }
 
-h3 {
+.pasta-card {
+  padding: 50px 120px;
+}
+
+.pasta-card h3 {
   text-align: center;
   text-transform: uppercase;
   color: blue;
 }
 
-h3 a {
+.pasta-card h3 a {
   color: blue;
 }
 
-.descrizione-pasta {
+.pasta-card .descrizione-pasta {
   background-color: lightblue;
   display: flex;
   flex-direction: column;
 }
 
-.descrizione-pasta img {
+.pasta-card .descrizione-pasta img {
   margin: 0 auto;
   width: 50%;
+}
+
+.pasta-card .descrizione-pasta p {
+  text-align: center;
+  color: blue;
 }
 
 header {
