@@ -13,6 +13,27 @@ body a {
   box-sizing: border-box;
 }
 
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: blue;
+}
+
+h3 a {
+  color: blue;
+}
+
+.descrizione-pasta {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+}
+
+.descrizione-pasta img {
+  margin: 0 auto;
+  width: 50%;
+}
+
 header {
   text-align: center;
 }
