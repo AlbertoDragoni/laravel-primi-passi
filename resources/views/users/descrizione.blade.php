@@ -13,7 +13,7 @@
       <div class="descrizione-pasta">
         <img src="{{$card['src-h']}}" alt="">
         <img src="{{$card['src-p']}}" alt="">
-        <p>{{$card['descrizione']}}</p>
+        <p>{{!!$card['descrizione']!!}}</p>
       </div>
     </div>
   @endforeach
