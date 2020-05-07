@@ -1,7 +1,6 @@
 @php
   $cards = config('dati');
   $pasta = $cards[$id];
-  dd($pasta);
 
 @endphp
 
@@ -12,11 +11,11 @@
 @endsection
 @section('mainContent')
 
-    <h3><a href="{{$key}}">{{$card['titolo']}}</a></h3>
+    <h3>{{$pasta['titolo']}}</h3>
     <div class="">
-      <img src="{{$card['src-h']}}" alt="">
-      <img src="{{$card['src-p']}}" alt="">
-      <p>{{$card['descrizione']}}</p>
+      <img src="{{$pasta['src-h']}}" alt="">
+      <img src="{{$pasta['src-p']}}" alt="">
+      <p>{{$pasta['descrizione']}}</p>
     </div>
 
 @endsection
