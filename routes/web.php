@@ -25,3 +25,9 @@ Route::get('/products', function () {
 Route::get('/contacts', function () {
     return view('users.contacts');
 })->name('contatti');
+Route::get('/description', function () {
+    return view('users.descrizione');
+})->name('descrizione');
+Route::get('/description/{id}', function ($id) {
+    return view('users.pasta', compact('id'));
+})->name('descrizione.show');
