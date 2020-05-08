@@ -12,10 +12,16 @@ main {
         flex-wrap: wrap;
         .card {
           position: relative;
-          flex-basis: calc(100% / 3 - 40px);
+          flex-basis: calc(100% - 40px);
           margin: 20px;
           overflow: hidden;
           border-radius: 10px;
+          @media screen and (min-width: 480px) {
+            flex-basis: calc(100% / 2 - 40px)
+          }
+          @media screen and (min-width: 768px) {
+            flex-basis: calc(100% / 3 - 40px);
+          }
           &:hover {
             .hover {
 
